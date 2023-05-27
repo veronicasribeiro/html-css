@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            /* Sempre termine suas fonts save com alguma genérica (SANS-SERIF, SERIF, MONOSPACE) */
+            font-family: Arial, Helvetica, sans-serif;
+            /* MEDIDAS ABSOLUTAS 
+            cm (centímetros), mm (milímetros), in (polegadas), px (pixel), pt (ponto), pc (pica)
+            */
+            
+            /* MEDIDAS RELATIVAS 
+            em (tamanho relativo ao tamanho atual da fonte), ex (relativo a altura x de uma fonte), rem (relativo ao tamanho da fonte que está configurada no body), vw (relativo a largura do tamanho de tela), vh (relatico a altura do tamanho da tela), % (porcentagem)
+            
+            16px = 1em (em é o tamanho da letra normalmente)
+            2em = 32px.
+            */
+
+            /* USE PX E EM */
+            /* MELHOR TAMANHAR SEMPRE EM EM */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* SHORTHAND FONT
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore recusandae praesentium, quidem consequatur sequi enim tempora quod in. Natus labore eligendi voluptas? Saepe officia minima id nemo aliquid nulla. Reprehenderit.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, similique est! Ut, accusantium? Voluptatum, autem. Labore laudantium itaque nisi officia, est placeat dicta rem excepturi? Numquam sequi itaque suscipit reiciendis.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nisi sapiente illo nesciunt iusto autem eum. Vero, eos. Facilis blanditiis qui repellat sint omnis quisquam dolor culpa voluptates accusantium minima?</p>
+</body>
+</html>

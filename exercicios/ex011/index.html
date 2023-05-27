@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="./imagens/foto-p.png" type="image/png">
+        <!-- Ele irá carregar a foto G mas se ele for menor do que 1000px, ele irá carregar a foto M -->
+        <source media="(max-width: 1050px)" srcset="./imagens/foto-m.png" type="image/png">
+        <img src="./imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="./midias/jane-trackTribe.mp3" controls></audio>
+    <!-- controls - para o controle de áudio aparecer -->
+    <!-- MP3 WAV OGG-->
+
+    <p>Outra forma de adicionar áudio</p>
+    <audio preload="metadata" controls>
+        <!-- AUTOPLAY -->
+        <!-- LOOP -->
+        <source src="./midias/jane-trackTribe.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

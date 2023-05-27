@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #98ACC7, #CAC0C9);
+}
+
+main {
+    background-color: #fff;
+    width: 600px;
+    padding: 10px;
+    /* LADO/BAIXO/ESPALHAR/TRANSPARÊNCIA(COR)*/
+    box-shadow: 5px 5px 15px #828eb8e7;
+    /* Automaticamente centraliza independente do tamanho da tela */
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #F29F05;
+    text-align: center;
+    /* MONOCROMIA - Sempre arraste para baixo */
+    text-shadow: 1px 2px 0 #a86f05ea;
+}
+
+h2 {
+    color: #828EB8;
+}
+
+p {
+    text-align: justify;
+}

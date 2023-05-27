@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <!-- USER AGENT = Sempre o navegador que está exibindo -->
+    <!-- Brinca no DevTools -->
+    <style>
+        /*  Box Level (block)*/
+        h1 {
+            /* Para transformá-lo em inline box */
+            /* display: inline; */
+            background-color: lightgreen;
+            height: 300px;
+            width: 300px;
+            /* largura/espessura da borda */
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: darkgreen; */
+            border: 10px solid darkgreen;
+
+            /* Gira no sentido do relógio */
+            /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+
+            /* Dois valores faz com que o de cima e o de baixo fique iguais, assim como o da esquerda e o da direita */
+            padding: 10px;
+
+            /* Centraliza horizontalmente (se for uma caixa)*/
+            /*Se for um texto bota text-aling: center; */
+            /* margin: auto; */
+/* 
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; */
+
+            /* A margem da direita e margem da esquerda centralizadas */
+            margin: 20px auto 40px auto;
+
+            /* O outline fica entre a borda e a margem só que dentro da margem */
+
+            /* Fica igual a borda */
+            /* Largura do outline */
+            /* Pode extravassar a margem mas ele não influencia a margem */
+            /* outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon; */
+
+            outline: 5px dashed salmon;
+        }
+
+        /* Inline Level */
+        a {
+            /* LARGURA/ESTILO/COR */
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: greenyellow; */
+
+            border: 10px solid greenyellow;
+
+            padding: 10px;
+            /* para transformar em box level */
+            /* display: block; */
+        }
+
+        /* display: inline-block; - Ele continua sendo inline mas irá ter algumas características do block como poder definir altura e largura*/
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas o <a href="#">os links são exemplo de caixas inline-level.</a>Vamos ver como tudo isso funciona</p>
+</body>
+</html>

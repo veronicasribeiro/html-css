@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(99, 141, 113, 0.603);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:  rgb(20, 95, 45);
+}
+
+h1#principal {
+    text-align: center;
+}
+
+h2 {
+    color:  rgb(26, 122, 58);
+}
